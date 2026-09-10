@@ -1,0 +1,1 @@
+def read_file(f): pass
