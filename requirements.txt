@@ -1,0 +1,6 @@
+click
+rich
+pyyaml
+gitpython
+colorama
+regex
