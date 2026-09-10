@@ -1,0 +1,15 @@
+import click
+@click.group()
+def cli(): pass
+@cli.command()
+@click.argument('path', default='.')
+def scan(path): print('Scanning ' + path)
+@cli.command()
+@click.argument('file1')
+@click.argument('file2')
+def diff(file1, file2): print('Diffing ' + file1 + ' and ' + file2)
+@cli.command()
+def install_hook(): print('Hook installed')
+@cli.command()
+def audit(): print('Auditing')
+if __name__ == '__main__': cli()
