@@ -1,0 +1,1 @@
+def parse_config(f): pass
