@@ -1,0 +1,2 @@
+from setuptools import setup, find_packages
+setup(name='devshield', version='0.1.0', packages=find_packages(), install_requires=['click', 'rich', 'pyyaml', 'gitpython', 'colorama', 'regex'], entry_points={'console_scripts': ['devshield=devshield.cli:cli']})
